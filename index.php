@@ -233,7 +233,6 @@
 	}
 	function signup()
 	{
-		echo "OKOKOKOKO";
 
 		require_once("config.php");
 	    $input = @file_get_contents("php://input");

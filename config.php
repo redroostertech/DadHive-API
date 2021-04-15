@@ -11,9 +11,8 @@
 	//https://i.gyazo.com/f1e5ba9f40c39abfdec1a01325c59cbd.png 
 	//you can get server key from here for enable push notificaton 
 	define("firebase_key","AAAAHAGWlcw:APA91bEqgkDYHX6diuqG2U75bFQ0FVwA3pPikwzmN7oU0uDHBMsaZDHMEXtLeTvupvrP0K5_KDpZmulOLw3JIBUMrvCR_H4qGGZo54Cv5MMwwEo_pmF9pOjjrtjmmPLw4fZZ04pJaQkZ");
-	
 	//database configration
-	$servername = "localhost";
+	$servername = "us-cdbr-east-03.cleardb.com";
 	$database = "heroku_03e4adbfdb699b3";
 	$username = "bec2fe74a32401";
 	$password = "26fd4c76";
