@@ -237,6 +237,7 @@
 	    $input = @file_get_contents("php://input");
 	    $event_json = json_decode($input,true);
 		//print_r($event_json);
+		echo "OKOKOKOKO";
 		
 		if(isset($event_json['fb_id']) && isset($event_json['first_name']) && isset($event_json['last_name']))
 		{
