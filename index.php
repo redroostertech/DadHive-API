@@ -11,7 +11,7 @@
 			array(
 				"response" =>"Test Response");
 			
-			$output=array( "code" => "201", "msg" => $array_out);
+			$output=array( "code" => "200", "msg" => $array_out);
 			print_r(json_encode($output, true));
 		}
 		else
@@ -177,7 +177,15 @@
 	}
 	else
 	{
-		echo"Not Found";
+		$array_out = array();
+    					
+		$array_out[] = 
+		array(
+			"response" => "Resource not found"
+		);
+		
+		$output=array( "code" => "404", "msg" => $array_out);
+		print_r(json_encode($output, true));
 
 	}
 	
