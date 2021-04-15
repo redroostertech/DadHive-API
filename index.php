@@ -336,7 +336,7 @@
             			array(
             			"response" =>"problem in signup");
             		
-            		$output=array( "code" => "201", "msg" => $array_out);
+            		$output=array( "code" => "200", "msg" => $array_out);
             		print_r(json_encode($output, true));
     			}
 			}
@@ -352,7 +352,7 @@
 				array(
 				"response" =>"Json Parem are missing");
 			
-			$output=array( "code" => "201", "msg" => $array_out);
+			$output=array( "code" => "200", "msg" => $array_out);
 			print_r(json_encode($output, true));
 		}
 	}
@@ -397,7 +397,7 @@
         			array(
         			"response" =>"problem in signup");
         		
-        		$output=array( "code" => "201", "msg" => $array_out);
+        		$output=array( "code" => "200", "msg" => $array_out);
         		print_r(json_encode($output, true));
 			}
 			
@@ -412,7 +412,7 @@
 				array(
 				"response" =>"Json Parem are missing");
 			
-			$output=array( "code" => "201", "msg" => $array_out);
+			$output=array( "code" => "200", "msg" => $array_out);
 			print_r(json_encode($output, true));
 		}
 	    
@@ -504,7 +504,7 @@
         			array(
         			"response" =>"problem in updating");
         		
-        		$output=array( "code" => "201", "msg" => $array_out);
+        		$output=array( "code" => "200", "msg" => $array_out);
         		print_r(json_encode($output, true));
 			}
 			
@@ -517,7 +517,7 @@
 				array(
 				"response" =>"Json Parem are missing");
 			
-			$output=array( "code" => "201", "msg" => $array_out);
+			$output=array( "code" => "200", "msg" => $array_out);
 			print_r(json_encode($output, true));
 		}
 	    
@@ -589,7 +589,7 @@
         			array(
         			"response" =>"problem in updating");
         		
-        		$output=array( "code" => "201", "msg" => $array_out);
+        		$output=array( "code" => "200", "msg" => $array_out);
         		print_r(json_encode($output, true));
 			}
 			
@@ -603,7 +603,7 @@
 				array(
 				"response" =>"Json Parem are missing");
 			
-			$output=array( "code" => "201", "msg" => $array_out);
+			$output=array( "code" => "200", "msg" => $array_out);
 			print_r(json_encode($output, true));
 		}
 	    
@@ -684,7 +684,7 @@
             			array(
             			"response" =>"problem in uploading");
             		
-            		$output=array( "code" => "201", "msg" => $array_out);
+            		$output=array( "code" => "200", "msg" => $array_out);
             		print_r(json_encode($output, true));
     			}
 			}   
@@ -701,7 +701,7 @@
 				array(
 				"response" =>"Json Parem are missing");
 			
-			$output=array( "code" => "201", "msg" => $array_out);
+			$output=array( "code" => "200", "msg" => $array_out);
 			print_r(json_encode($output, true));
 		}
 	}
@@ -1172,9 +1172,9 @@
 					
         		 $array_out[] = 
         			array(
-        			"response" =>"problem in api");
+        			"response" => "There are no users nearby.");
         		
-        		$output=array( "code" => "201", "msg" => $array_out);
+        		$output=array( "code" => "200", "msg" => $array_out);
         		print_r(json_encode($output, true));
 			}
 			
@@ -1189,7 +1189,7 @@
 				array(
 				"response" =>"Json Parem are missing");
 			
-			$output=array( "code" => "201", "msg" => $array_out);
+			$output=array( "code" => "200", "msg" => $array_out);
 			print_r(json_encode($output, true));
 		}
 	}
@@ -1265,7 +1265,7 @@
             			array(
             			"response" =>"problem in delete");
             		
-            		$output=array( "code" => "201", "msg" => $array_out);
+            		$output=array( "code" => "200", "msg" => $array_out);
             		print_r(json_encode($output, true));
     			}
 			} 
@@ -1280,7 +1280,7 @@
 						array(
 						"response" =>"Json Parem are missing");
 					
-					$output=array( "code" => "201", "msg" => $array_out);
+					$output=array( "code" => "200", "msg" => $array_out);
 					print_r(json_encode($output, true));
 		}
 		
@@ -1322,7 +1322,7 @@
         			array(
         			"response" =>"problem in uploading");
         		
-        		$output=array( "code" => "201", "msg" => $array_out);
+        		$output=array( "code" => "200", "msg" => $array_out);
         		print_r(json_encode($output, true));
 			}
 			
@@ -1370,7 +1370,7 @@
         			array(
         			"response" =>"problem in updating");
         		
-        		$output=array( "code" => "201", "msg" => $array_out);
+        		$output=array( "code" => "200", "msg" => $array_out);
         		print_r(json_encode($output, true));
 			}
 			
@@ -1383,7 +1383,7 @@
 				array(
 				"response" =>"Json Parem are missing");
 			
-			$output=array( "code" => "201", "msg" => $array_out);
+			$output=array( "code" => "200", "msg" => $array_out);
 			print_r(json_encode($output, true));
 		}       
 	}
@@ -1555,7 +1555,7 @@
         			array(
         			"response" =>"Error in login");
         		
-        		$output=array( "code" => "201", "msg" => $array_out);
+        		$output=array( "code" => "200", "msg" => $array_out);
         		print_r(json_encode($output, true));
 			}
 			
@@ -1570,7 +1570,7 @@
 				array(
 				"response" =>"Json Parem are missing");
 			
-			$output=array( "code" => "201", "msg" => $array_out);
+			$output=array( "code" => "200", "msg" => $array_out);
 			print_r(json_encode($output, true));
 		}
 	}
@@ -1646,7 +1646,7 @@
             			array(
             			"response" =>"problem in updating");
             		
-            		$output=array( "code" => "201", "msg" => $array_out);
+            		$output=array( "code" => "200", "msg" => $array_out);
             		print_r(json_encode($output, true));
     			}
 			}
@@ -1658,7 +1658,7 @@
         			array(
         			"response" =>"problem in updating");
         		
-        		$output=array( "code" => "201", "msg" => $array_out);
+        		$output=array( "code" => "200", "msg" => $array_out);
         		print_r(json_encode($output, true));
 			}
 			
@@ -1672,7 +1672,7 @@
 				array(
 				"response" =>"Json Parem are missing");
 			
-			$output=array( "code" => "201", "msg" => $array_out);
+			$output=array( "code" => "200", "msg" => $array_out);
 			print_r(json_encode($output, true));
 		}
 	    
@@ -1738,7 +1738,7 @@
         			array(
         			"response" =>"problem in updating");
         		
-        		$output=array( "code" => "201", "msg" => $array_out);
+        		$output=array( "code" => "200", "msg" => $array_out);
         		print_r(json_encode($output, true));
 			}
 			
@@ -1752,7 +1752,7 @@
 				array(
 				"response" =>"Json Parem are missing");
 			
-			$output=array( "code" => "201", "msg" => $array_out);
+			$output=array( "code" => "200", "msg" => $array_out);
 			print_r(json_encode($output, true));
 		}
 	    
@@ -1816,7 +1816,7 @@
 				array(
 				"response" =>"Json Parem are missing");
 			
-			$output=array( "code" => "201", "msg" => $array_out);
+			$output=array( "code" => "200", "msg" => $array_out);
 			print_r(json_encode($output, true));
 		}
 	    
@@ -1878,7 +1878,7 @@
 				array(
 				"response" =>"Json Parem are missing");
 			
-			$output=array( "code" => "201", "msg" => $array_out);
+			$output=array( "code" => "200", "msg" => $array_out);
 			print_r(json_encode($output, true));
 		}
 	    
@@ -2321,7 +2321,7 @@
         			array(
         			"response" =>"problem in signup");
         		
-        		$output=array( "code" => "201", "msg" => $array_out);
+        		$output=array( "code" => "200", "msg" => $array_out);
         		print_r(json_encode($output, true));
 			}
 			
@@ -2336,7 +2336,7 @@
 				array(
 				"response" =>"Json Parem are missing");
 			
-			$output=array( "code" => "201", "msg" => $array_out);
+			$output=array( "code" => "200", "msg" => $array_out);
 			print_r(json_encode($output, true));
 		}
 	 }
@@ -2475,7 +2475,7 @@
             			array(
             			"response" =>"problem in signup");
             		
-            		$output=array( "code" => "201", "msg" => $array_out);
+            		$output=array( "code" => "200", "msg" => $array_out);
             		print_r(json_encode($output, true));
     			}
 			}
@@ -2491,7 +2491,7 @@
 				array(
 				"response" =>"Json Parem are missing");
 			
-			$output=array( "code" => "201", "msg" => $array_out);
+			$output=array( "code" => "200", "msg" => $array_out);
 			print_r(json_encode($output, true));
 		}
 	 }
