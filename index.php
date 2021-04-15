@@ -3,7 +3,18 @@
 		
 	if(isset($_GET["p"]))
 	{
-		
+		if($_GET["p"]=="test")
+		{
+			$array_out = array();
+    					
+			$array_out[] = 
+			array(
+				"response" =>"Test Response");
+			
+			$output=array( "code" => "200", "msg" => $array_out);
+			print_r(json_encode($output, true));
+		}
+		else
 		if($_GET["p"]=="signup")
 		{
 			signup();
